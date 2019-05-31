@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Giphy Project</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+   <!-- <script src="assest/javascript/logic.js"></script> -->
+  </head>
+  <body>
+    <div id="superheroes"></div>
+
+    <form id="hero">
+      <label for="name">Hero Name:</label>
+      <input type="text" id="name" />
+    </form>
+    <div class="button" id="create">
+      <button type="submit">Make a Button!</button>
+    </div>
+
+    <script type="text/javascript">
+      $("#create").on("click", function(event) {
+        event.preventDefault();
+        var title = $("#name").val();
+        var newButton = $("<button/>",{
+            text: title,
+            id: "giphy"
+        });
+        console.log("name" + title);
+        $("#superheroes").append(newButton);
+      });
+    </script>
+  </body>
+</html>
