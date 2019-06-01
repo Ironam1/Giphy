@@ -9,8 +9,8 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-
-   <!-- <script src="assest/javascript/logic.js"></script> -->
+    <script src="assets/javascript/logic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <div id="superheroes"></div>
@@ -22,18 +22,11 @@
     <div class="button" id="create">
       <button type="submit">Make a Button!</button>
     </div>
-
-    <script type="text/javascript">
-      $("#create").on("click", function(event) {
-        event.preventDefault();
-        var title = $("#name").val();
-        var newButton = $("<button/>",{
-            text: title,
-            id: "giphy"
-        });
-        console.log("name" + title);
-        $("#superheroes").append(newButton);
-      });
+    <div id="hooray"></div>
+    <script>
+    makeButton();
+    runGif();
+    animateGif(); 
     </script>
   </body>
 </html>
