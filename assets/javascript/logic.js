@@ -16,15 +16,15 @@ var shownButtons = [
   "Gambit"
 ];
 
-function populateButtons () {
-    for (var i = 0; i < shownButtons.length; i++) {
+function populateButtons() {
+  for (var i = 0; i < shownButtons.length; i++) {
     var buttons = $("<button/>", {
-        class: "super",
-        text: shownButtons[i],
-        "data-person": shownButtons[i]
-    });    
-}
+      class: "super",
+      text: shownButtons[i],
+      "data-person": shownButtons[i]
+    });
     $("#superheroes").append(buttons);
+  }
 }
 function makeButton() {
   $("#create").on("click", function(event) {

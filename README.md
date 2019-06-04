@@ -1,1 +1,3 @@
 # Giphy
+
+When the page loads, a series of buttons displaying various super heroes will be displayed. When the user clicks on the buttons, ten gifs will load. The gifs will be in a still position. Clicking on the image will cause the gifs to animate, clicking again will stop the animation. The user can type in their own favorite super and populate a button of their own, also generating gifs when clicked.
