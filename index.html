@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Giphy Project</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -18,16 +19,10 @@
     <form id="hero">
       <label for="name">Hero Name:</label>
       <input type="text" id="name" />
+      <div class="button" id="create">
+        <button>Make a Button!</button>
+      </div>
     </form>
-    <div class="button" id="create">
-      <button type="submit">Make a Button!</button>
-    </div>
     <div id="hooray"></div>
-    <script>
-    populateButtons();
-    makeButton();
-    runGif();
-    animateGif(); 
-    </script>
   </body>
 </html>
