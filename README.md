@@ -10,3 +10,5 @@ Thia application can be found at: https://ironam1.github.io/Giphy/
 
 
 ![Screen Shot 2019-11-07 at 12 35 44 PM](https://user-images.githubusercontent.com/48491411/68412980-4933ba80-015b-11ea-8d3c-d1cc8263c4d0.png)
+
+![Screen Shot 2019-11-08 at 12 41 58 AM](https://user-images.githubusercontent.com/48491411/68452497-a877e600-01c0-11ea-987b-67945d84b222.png)
